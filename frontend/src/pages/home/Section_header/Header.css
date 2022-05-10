@@ -1,0 +1,44 @@
+  #splash {
+        /*height: calc(100vh - 320px) !important; Responsive mode mobile*/
+        height: calc(100vh - 25px) !important;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('./../../../img/135515.jpg');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+    #splash .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+        height: 100% !important;
+   }
+    #splash .wrapper .home-content {
+        z-index: 5;
+   }
+    #splash .splash-text h1, #splash .splash-text p {
+        color: #fff;
+   }
+    #splash .splash-text h1 {
+        font-weight: normal;
+   }
+    #splash .splash-text p {
+        font-size: 1.1rem;
+   }
+    #splash .splash-text .actions-button {
+        max-width: 768px;
+   }
+    #splash .splash-text .actions-button .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+    @media (max-width: 576px) {
+        .actions-button > * {
+            width: 70%;
+       }
+   }
+
+   .marginside {
+       margin: 0 70px;
+   }

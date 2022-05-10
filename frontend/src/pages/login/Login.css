@@ -1,0 +1,30 @@
+.login {
+
+}
+
+.btn_style_login {
+    padding-left: 2.5rem; padding-right: 2.5rem;
+}
+
+.login-content {
+    margin-top : 100px;
+}
+
+.or {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:grey;
+    margin-top : 10px; 
+    margin-bottom: 10px;
+  }
+  
+  .or:after,
+  .or:before {
+      content: "";
+      display: block;
+      background: grey;
+      width: 30%;
+      height:1px;
+      margin: 0 10px;
+  }
